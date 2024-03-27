@@ -1,13 +1,296 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+
+
+ <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href=" https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/mainPage.css">
+	<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slab.css">
+<link rel="stylesheet" href="css/rcBeam.css">
+
+
+
+  
+</head>
+
+<body>
+<header>
+		<img class="COEPLogo" src='images/COEPlogo.png' />
+		<img class="VlabLogo" src='images/vlablogo.jpg' />
+		<span id="colgName">COEP Technological University, Pune</span>	
+	</header>
+	
+
+
+<!-- <div id="main" > -->
+
+<!-- <div class="row" > -->
+<!-- <div class="col-sm-10"> -->
+<!-- <!-- 	<div class="col-sm-8"> -->
+<!-- <!-- 	</div> -->
+     
+<!--       <div class="col-sm-2"> -->
+<!-- <!--        <button >  <i class="far fa-edit">Edit</i> </button> --> 
+<!--        <button style="font-size:24px;margin-top: 15px;" class="btn btn-danger" id="edit">Edit </button> -->
+<!--        <button style="font-size:24px;margin-top: 15px;" class="btn btn-success" id="update">Update </button> -->
+    
+<!--        </div> -->
+<!-- <!--        <div class="col-sm-2"> --> 
+<!-- <!--         <span id="hour" class="timer">00</span>:<span id="minute" class="timer">00</span>:<span class="timer" id="second">00</span>	 --> 
+<!-- <!-- 		</div> -->
+<!--         </div> -->
+<!-- </div> -->
+
+<div id="main" >
+
+<div class="row" >
+<div class="col-sm-10">
+        
+      </div>
+      <div class="col-sm-2">
+<!--        <button >  <i class="far fa-edit">Edit</i> </button> -->
+       <button style="font-size:24px;margin-top: 15px;" class="btn btn-danger" id="edit">Edit </button>
+       <button style="font-size:24px;margin-top: 15px;" class="btn btn-success" id="update">Update </button>
+      </div>
+</div>
+  
+   
+<div  class="row container-fluid" id=page1 hidden>
+	<div class="col-sm-6" id="">
+	<div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">COLUMN DIAGRAM</center>
+	      			</div>
+
+	      			<div class="panel-body" id="page1Div1" >
+	      			<img src="images/column_types.png" class="img-responsive" style="width:779px">
+	      			
+	      		
+	      			</div>
+				
+	      			
+	   			</div>
+	      
+	
+<!-- 	<h1>Page 1 Div 1</h1> -->
+	</div>
+	<div class="col-sm-6" >
+	      <div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">CONFIGURATION</center>
+	      			</div>
+
+	      			<div class="panel-body" id="page1Div2" >
+	      			
+	      			</div>
+			</div>
+<!-- 	<h1>Page 1 Div 2</h1> -->
+	</div>
+	</div>
+	<div  class="row container-fluid" id="page2" hidden>
+	<div class="col-sm-6">
+	 <div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">CALCULATION</center>
+	      			</div>
+
+	      			<div class="panel-body" id="page2Div1" >
+	      			<img src="images/column_types.png" class="img-responsive" style="width:779px;height:500px">
+	      				
+	      			</div>
+			</div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">DIAGRAM </center>
+	      			</div>
+
+	      			<div class="panel-body" id="page2Div2" >
+<!-- 	      			<h1>Page 2 Div 2</h1> -->
+	      			</div>
+			</div>
+	</div>
+	</div>
+	<div  class="row container-fluid" id="page3" hidden>
+	<div class="col-sm-6">
+	 <div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">CALCULATION</center>
+	      			</div>
+
+	      			<div class="panel-body" id="page3Div1" >
+<!-- 	      			<h1>Page 3 Div 1</h1> -->
+	      			</div>
+			</div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="panel panel-primary" >
+	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">DIAGRAM </center>
+	      			</div>
+
+	      			<div class="panel-body" id="page3Div2" >
+	      			
+	      			</div>
+			</div>
+	
+	</div>
+	</div>
+<!-- 	<div  class="row container-fluid" id="page4" hidden> -->
+<!-- 	<div class="col-sm-6"> -->
+<!-- 	 <div class="panel panel-primary" > -->
+<!-- 	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">DIAGRAM</center> -->
+<!-- 	      			</div> -->
+
+<!-- 	      			<div class="panel-body" id="page4Div1" > -->
+<!-- <!-- 	      			<h1>Page 4 Div 1</h1> --> 
+	      			
+<!-- 	      			</div> -->
+<!-- 			</div> -->
+	
+<!-- 	</div> -->
+<!-- 	<div class="col-sm-6"> -->
+<!-- 	 <div class="panel panel-primary" > -->
+<!-- 	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">BENDING MOMENT</center> -->
+<!-- 	      			</div> -->
+
+<!-- 	      			<div class="panel-body" id="page4Div2" > -->
+<!-- <!-- 	      		<h1>Page 4 Div 2</h1> --> 
+<!-- 	      			</div> -->
+<!-- 			</div> -->
+	
+<!-- 	</div> -->
+<!-- 	</div> -->
+	
+<!-- 	<div  class="row container-fluid" id="page5" hidden> -->
+<!-- 	<div class="col-sm-6"> -->
+<!-- 	 <div class="panel panel-primary" > -->
+<!-- 	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">REINFORCED CONCRETE SLAB</center> -->
+<!-- 	      			</div> -->
+
+<!-- 	      			<div class="panel-body" id="page5Div1" > -->
+<!-- 	      		<h1>all page Div 1</h1> -->
+<!-- 	      			</div> -->
+<!-- 			</div> -->
+	
+<!-- 	</div> -->
+<!-- 	<div class="col-sm-6"> -->
+<!-- 	 <div class="panel panel-primary" > -->
+<!-- 	      			<div class="panel-heading " id="panelHeading2" ><center id="centerText2">REINFORCED CONCRETE SLAB</center> -->
+<!-- 	      			</div> -->
+
+<!-- 	      			<div class="panel-body" id="page5Div2" > -->
+<!-- 	      		    <h1>all page Div 2</h1> -->
+<!-- 	      			</div> -->
+<!-- 			</div> -->
+<!-- 	</div> -->
+<!-- 	</div> -->
+	<div class="row">
+	<div class="col-sm-10"></div>
+	<div class="col-sm-2">
+	<ul id="pagination-demo" class="pagination-sm"></ul>
+	</div>
+	
+	</div>
+	
+<!-- 	 <div class="modal fade-lg" id="myModal"> -->
+<!--     <div class="modal-dialog"> -->
+<!--       <div class="modal-content"> -->
+      
+<!--         Modal Header -->
+<!--         <div class="modal-header"> -->
+<!--           <h4 class="modal-title" ><center id="modelTitle"></center></h4> -->
+<!--           <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+<!--         </div> -->
+        
+<!--         Modal body -->
+<!--         <div class="modal-body" id="modelBody"> -->
+          
+<!--         </div> -->
+        
+<!--         Modal footer -->
+<!--         <div class="modal-footer"> -->
+<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+<!--         </div> -->
+        
+<!--       </div> -->
+<!--     </div> -->
+<!--   </div> -->
+
+
+</div>
+
+	
+	<!-- 	Model Start -->
+	<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+		<h4 class="modal-title" style="font-weight: 600;"></h4>
+          <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <p id="MsgModal"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btnModal" class="btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!--   Model end -->
+	
+<!-- Main Div -->
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+
+
+
+</script>
+   
+<!-- https://code.jquery.com/jquery-3.5.1.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+ <script src=" https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.1/jquery.twbsPagination.min.js"></script>
+
+<script type="text/javascript" src="JS/pagination.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/raphael.js"></script>
+<script type="text/javascript" src="lib/raphael.min.js"></script>
+<script type="text/javascript" src="JS/mainpage.js"></script>
+<script type="text/javascript" src="JS/timer.js"></script>
+<script type="text/javascript" src="JS/rcBeamConfig.js"></script>
+<script type="text/javascript" src="JS/calculations.js"></script>
+<script type="text/javascript" src="JS/page3.js"></script>
+<script type="text/javascript" src="JS/rcBeamAnim.js"></script>
+<script type="text/javascript" src="JS/page4.js"></script>
+<!-- <script type="text/javascript" src="JS/bendingMoment.js"></script> -->
+<!--  <script type="text/javascript" src="JS/AnimSlab.js"></script> -->
+<!-- <script type="text/javascript" src="JS/Slabthickness.js"></script> -->
+<!-- <script type="text/javascript" src="JS/loadAnimation.js"></script> -->
+<!--     <script type="text/javascript" src="JS/loadcalculation.js"></script> -->
+
+</html> 
+<footer>
+Copyrights &copy; COEP - Virtual Lab
+</footer>
 </body>
-</html>
