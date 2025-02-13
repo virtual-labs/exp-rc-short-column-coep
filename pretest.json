@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The compression member is considered to be short when the slenderness ratio is less than",
+      "answers": {
+        "a": "12",
+        "b": "15",
+        "c": "20",
+        "d": "10"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For design of axially loaded short column when minimnum eccentricity of 20 mm is considered the size of column shall be:",
+      "answers": {
+        "a": "400 mm",
+        "b": "300 mm",
+        "c": "350 mm",
+        "d": "450 mm"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The minimum eccentricity that should be used for design of column shall be:",
+      "answers": {
+        "a": "b/30",
+        "b": " h/30 + L/500",
+        "c": "D/30",
+        "d": "L/500"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	
+	{
+      "question": "The length of a slender column between end restraints shall not exceed",
+      "answers": {
+        "a": "40 h",
+        "b": "45 h",
+        "c": "60 h",
+        "d": "50 h"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The recommended effective length L of a cantilever column shall be:",
+      "answers": {
+        "a": "1 L",
+        "b": "0.8 L",
+        "c": "1.5 L",
+        "d": "2 L"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}

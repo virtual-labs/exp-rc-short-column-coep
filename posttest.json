@@ -1,0 +1,68 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A column will be considered as pedestal when its effective length is less than :",
+      "answers": {
+        "a": "3 h",
+        "b": "greater than 0.8h",
+        "c": "2 h",
+        "d": "1 h"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The minimum percentage of reinforcement in RC short column shall be",
+      "answers": {
+        "a": "4 % ",
+        "b": "6 % ",
+        "c": "0.4 % ",
+        "d": "0.8 % "
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The minimum percentage of reinforcement in long column shall be:",
+      "answers": {
+        "a": "0.8 %",
+        "b": "6 %",
+        "c": "0.4 %",
+        "d": "4 %"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The maximum percentage of reinforcement in RC short column shall be",
+      "answers": {
+        "a": "6 % ",
+        "b": "4 %",
+        "c": "0.8 %",
+        "d": "0.4 %"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The maximum percentage of reinforcement in RC long column shall be :",
+      "answers": {
+        "a": "6 % ",
+        "b": "8 %",
+        "c": "0.4 %",
+        "d": "4 %"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
