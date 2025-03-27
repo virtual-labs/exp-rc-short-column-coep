@@ -1,55 +1,60 @@
-## (RC) short column subjected to both axial compression (direct force) and uniaxial bending (bending about one axis).
-### Theory:
-Short columns are RC columns with a slenderness ratio (ratio of effective length to least lateral dimension) less than a specific code limit (typically around 12). Their behavior is governed by both axial compression and bending moment due to eccentricity of the applied load or inherent imperfections.
-![1](images/image1.png)
-Possible strain profiles under ultimate limit state in eccentriccompression
-### The design considers:
+## Design a reinforced concrete (RC) short column subjected to an axial load
+### Theory : 
 
-##### Equilibrium :  
-Balancing the applied axial load (Pu) and bending moment (Mu) with the resisting forces and moments developed by the concrete and steel reinforcement.
-##### Material Properties :
-Characteristic compressive strength of concrete (fck) and characteristic yield strength of steel reinforcement (fy).
-##### Interaction Diagrams :
-These are code-provided charts that relate the axial load capacity (Pu) to the bending moment capacity (Mu) of a specific section for various reinforcement ratios.
+Column or strut is a compression member, the effective length of which exceeds three times the least lateral dimension.
+A compression member may be considered as short when both the slender ratios lex/D and ley/b than less than 12. 
+Where, lex = effective length in respect of the major axis,
+       D = depth in respect of the major axis,
+       ley = effective length in respect of the minor axis, and
+       b = width of the member
+It shall otherwise be considered as a slender compression member.
+Short columns fail due to compressive crushing and are governed by material strength.
+Long columns fail due to buckling instability, which depends on slenderness ratio and end conditions.
+The column is provided with longitudinal and transverse reinforcement. The transverse steel is in the form of ties or closely spaced spirals. Longitudinal reinforcement consists of main bars tied with transverse links or helical reinforcement. Tied and spiral columns are normally used in reinforced concrete construction out of which tied columns are very common.
 
-### Interaction Curve
+Classification of column: 
+Classification of column based on loading: 
 
-The ‘interaction curve’ is a complete graphical representation of the design strength of a uniaxially eccentrically loaded column of given proportions. Each point on the curve corresponds to the design strength values of (PuR)  and(MuR)  associated with a specific eccentricity (e) of loading. That is to say, if load P is applied on a short column with an eccentricity e, and if this load is gradually increased till the ultimate limit state (defined by the Code) is reached, and that ultimate load at failure is given by Pu = PuR and the corresponding moment by Mu = MuR = PuR e, then the coordinates (MuR, PuR)form a unique point on the interaction diagram.
-The interaction curve defines the different (MuR, PuR) combinations for all possible eccentricities of loading 0 ≤ e < ∞. For design purposes, the calculations of MuR and PuR are based on the design stress-strain curves (including the partial safety factors), and the resulting interaction curve is sometimes referred to as the design interaction curve (which is different from the characteristic interaction curve). Using the design interaction curve for a given column section, it is possible to make a quick judgement as to whether or not the section is ‘safe’ under a specified factored load effect combination (Pu, Mu). If the point given by the coordinates (Mu, Pu) falls within the design interaction curve, the column is ‘safe’; otherwise, it is not.
-![2](images/image2.png)
-###### Typical Pu -Mu Interaction Diagram
-### Design Steps :
+The column is subjected to axial load uniaxial bending and biaxial bending as shown in the Fig 1. The column shown in Fig.1.(a) carries the load along its centroidal axis is termed as axially loaded column. Such ideal column rarely occurs in practice. The columns in buildings are normally subjected to axial compression and bending. If a column carries axial compression and bending moment about either x-axis or y-axis it is termed as column subjected to axial load and uniaxial bending as shown in Fig.1(b). The end columns in a buildings are normally subjected to bending about either x or y-axes. While if it is subjected to moment about both the axes in addition to axial load it is termed as column subjected to biaxial bending. The corner columns in a building are subjected to axial load and biaxial bending (Fig.1.(c)).
 
-##### Define Design Parameters :
-Specify the applied axial load (Pu) and bending moment (Mu) on the column.
+![1](images/fig1.png)
+
+Mx is cosidered as moment acting about major 'x' axis of bending, dividing depth 'D' of the column while, My, is cosidered as moment acting about minor 'y' axis of bending, dividing width 'b' of the column. 
+
+Classification of Column Based on Reinforcement: 
+Concrete columns are mainly classified into the following two types:
+
+(a) Column with Lateral ties: In this case the main reinforcing longitudinal bars are enclosed within closely spaced lateral ties (Fig.2 (a))
+
+(b) Column with Spirals: In this case the main reinforcing longitudinal bars are enclosed within closely spaced and continuously wound spiral reinforcement (Fig.2 (b))
+
+
+
+
+![1](images/fig2.png)
+##### Design Steps :
+1.  Define Design Parameters:
+Specify the applied axial load (Pu) on the column.
 Choose design values for concrete strength (fck) and steel yield strength (fy) based on material specifications and code requirements.
 Select a desired concrete cover thickness for durability (refer to building codes).
-
-##### Determine Column Dimensions :
+2.	Determine Column Dimensions:
 Considering architectural constraints and spacing requirements, choose a preliminary rectangular or square cross-section for the column (b x h).
 Check code provisions for minimum column dimensions.
-
-##### Effective Length Calculation :
+3.	Effective Length Calculation:
 Based on the end support conditions (fixed, hinged, etc.), calculate the effective length (Le) of the column using code formulas.
-![2](images/image3.png)
-#### Slenderness Ratio Check :
-
+4.	Slenderness Ratio Check:
 Calculate the slenderness ratio (Le/b) for the chosen dimensions.
 Verify the slenderness ratio is less than the code limit for short column design.
-
-#### Interaction Diagram Selection :
-
-Refer to building codes and select an appropriate interaction diagram for the chosen concrete strength (fck) and reinforcement type. The diagram relates Pu and Mu capacity for various reinforcement ratios.
-
-#### Strength Design :
-
+5.	Minimum Reinforcement Ratio:
+Determine the minimum required area of steel reinforcement (Asc,min) based on code provisions and concrete strength.
+6.	Strength Design:
 Assume a trial reinforcement ratio within the allowed limits (typically 0.01 to 0.08).
-Use the interaction diagram to find the corresponding Pu capacity for the chosen reinforcement and section dimensions (b, h).
-If the Pu capacity from the diagram is less than the applied axial load (Pu), adjust the reinforcement ratio and repeat the process until a safe design is achieved (Pu capacity >= Pu and Mu capacity >= Mu).
-#### Serviceability Check :
+Use code equations to calculate the resisting capacity of the reinforced concrete section (Pu, capacity).
+If Pu, capacity is less than the applied load (Pu), adjust the reinforcement ratio and repeat the calculation until a safe design is achieved (Pu, capacity >= Pu).
+7.	Serviceability Check:
 Depending on the code and project requirements, perform calculations to ensure the column deflection under service loads (including dead load) is within acceptable limits.
-#### Reinforcement Details :
+8.	Reinforcement Details:
 Determine the number and diameter of longitudinal steel bars required to achieve the calculated area of reinforcement (Asc).
 Design and specify the spacing, diameter, and minimum requirements for lateral ties to ensure confinement of concrete and prevent buckling of steel bars.
-#### Code Compliance Check :
-Verify the final design meets all relevant code requirements for concrete cover, minimum bar spacing, fire resistance, etc
+9.	Code Compliance Check:
+Verify the final design meets all relevant code requirements for concrete cover, minimum bar spacing, fire resistance, etc.
