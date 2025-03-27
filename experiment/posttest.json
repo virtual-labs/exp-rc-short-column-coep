@@ -14,12 +14,25 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The minimum percentage of reinforcement in RC short column shall be",
+      "question": "Which type of end condition provides maximum strength against buckling?",
       "answers": {
-        "a": "4 % ",
-        "b": "6 % ",
-        "c": "0.4 % ",
-        "d": "0.8 % "
+        "a": "Fixed-free",
+        "b": "Pinned-pinned",
+        "c": "Fixed-fixed",
+        "d": "Fixed-pinned"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The minimum number of longitudinal bars required in a circular RC column is:",
+      "answers": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "6"
       },
      
       "correctAnswer": "d",
@@ -27,41 +40,28 @@
     },
 	
 	{
-      "question": "The minimum percentage of reinforcement in long column shall be:",
+      "question": "In a short column, the primary function of transverse ties is to:",
       "answers": {
-        "a": "0.8 %",
-        "b": "6 %",
-        "c": "0.4 %",
-        "d": "4 %"
+        "a": "Increase the bending moment capacity",
+        "b": "Improve flexural strength",
+        "c": "Constrain lateral expansion of concrete and prevent buckling of main bars",
+        "d": "Reduce dead load of the structure"
       },
      
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
 	
 	{
-      "question": "The maximum percentage of reinforcement in RC short column shall be",
+      "question": "The length of a slender column between end restraints shall not exceed, where h is least lateral dimension;",
       "answers": {
-        "a": "6 % ",
-        "b": "4 %",
-        "c": "0.8 %",
-        "d": "0.4 %"
+        "a": "40 h",
+        "b": "45 h",
+        "c": "60 h",
+        "d": "50 h"
       },
      
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-	
-	{
-      "question": "The maximum percentage of reinforcement in RC long column shall be :",
-      "answers": {
-        "a": "6 % ",
-        "b": "8 %",
-        "c": "0.4 %",
-        "d": "4 %"
-      },
-     
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

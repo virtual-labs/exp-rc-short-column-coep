@@ -13,38 +13,38 @@
       "difficulty": "beginner"
     },
     {
-      "question": "For design of axially loaded short column when minimnum eccentricity of 20 mm is considered the size of column shall be:",
+      "question": "Which type of failure occurs in a short column?",
       "answers": {
-        "a": "400 mm",
-        "b": "300 mm",
-        "c": "350 mm",
-        "d": "450 mm"
+        "a": "Buckling failure",
+        "b": "Torsional failure",
+        "c": "Crushing failure",
+        "d": "Shear failure"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "The minimum eccentricity that should be used for design of column shall be:",
+      "question": "The spacing between two helical reinforcements of a circular column is called the",
       "answers": {
-        "a": "b/30",
-        "b": " h/30 + L/500",
-        "c": "D/30",
-        "d": "L/500"
+        "a": "Pitch",
+        "b": " Lap",
+        "c": "Gauge",
+        "d": "All of the above"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
 	
 	
 	{
-      "question": "The length of a slender column between end restraints shall not exceed",
+      "question": "A column subjected to both axial load and bending moment in one plane is called:",
       "answers": {
-        "a": "40 h",
-        "b": "45 h",
-        "c": "60 h",
-        "d": "50 h"
+        "a": "Purely axial loaded column",
+        "b": "Uniaxially loaded column",
+        "c": "Biaxially loaded column",
+        "d": "Lateral load resisting column"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 	
