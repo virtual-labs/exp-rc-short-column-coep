@@ -17,7 +17,7 @@ Classification of column based on loading:
 
 The column is subjected to axial load uniaxial bending and biaxial bending as shown in the Fig 1. The column shown in Fig.1.(a) carries the load along its centroidal axis is termed as axially loaded column. Such ideal column rarely occurs in practice. The columns in buildings are normally subjected to axial compression and bending. If a column carries axial compression and bending moment about either x-axis or y-axis it is termed as column subjected to axial load and uniaxial bending as shown in Fig.1(b). The end columns in a buildings are normally subjected to bending about either x or y-axes. While if it is subjected to moment about both the axes in addition to axial load it is termed as column subjected to biaxial bending. The corner columns in a building are subjected to axial load and biaxial bending (Fig.1.(c)).
 
-![1](images/fig1.png)
+![1](images/fig.png)
 
 Mx is cosidered as moment acting about major 'x' axis of bending, dividing depth 'D' of the column while, My, is cosidered as moment acting about minor 'y' axis of bending, dividing width 'b' of the column. 
 
