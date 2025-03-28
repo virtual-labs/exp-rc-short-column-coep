@@ -4,4 +4,5 @@
 - Limit state theory and design of reinforced concrete by V. L. Shah and S. R. Karve structures publications
 - ReinForced concrete : limit state Design - Ashok K. Jain, Nemchand and Bros
 - Reinforced concrete design, S. Unnikrishna Pillai, Devdas Menon, McGraw Hill Publications
+- Reinforced concrete, Vol. 1, Part 2, Dr. H.J. Shah, Charotar publications
 
