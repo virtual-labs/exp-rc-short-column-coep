@@ -13,9 +13,9 @@ Long columns fail due to buckling instability, which depends on slenderness rati
 The column is provided with longitudinal and transverse reinforcement. The transverse steel is in the form of ties or closely spaced spirals.<br> Longitudinal reinforcement consists of main bars tied with transverse links or helical reinforcement. Tied and spiral columns are normally used in reinforced concrete construction out of which tied columns are very common.<br>
 
 ##### Classification of column: <br>
-* Classification of column based on loading: <br>
+##### Classification of column based on loading: <br>
 
-The column is subjected to axial load uniaxial bending and biaxial bending as shown in the Fig 1. The column shown in Fig.1.(a) carries the load along its centroidal axis is termed as axially loaded column. Such ideal column rarely occurs in practice. The columns in buildings are normally subjected to axial compression and bending. If a column carries axial compression and bending moment about either x-axis or y-axis it is termed as column subjected to axial load and uniaxial bending as shown in Fig.1(b). The end columns in a buildings are normally subjected to bending about either x or y-axes. While if it is subjected to moment about both the axes in addition to axial load it is termed as column subjected to biaxial bending. The corner columns in a building are subjected to axial load and biaxial bending (Fig.1.(c)).
+The column is subjected to axial load uniaxial bending and biaxial bending as shown in the below Fig . The column shown in (a) carries the load along its centroidal axis is termed as axially loaded column. Such ideal column rarely occurs in practice. The columns in buildings are normally subjected to axial compression and bending. If a column carries axial compression and bending moment about either x-axis or y-axis it is termed as column subjected to axial load and uniaxial bending as shown in (b). The end columns in a buildings are normally subjected to bending about either x or y-axes. While if it is subjected to moment about both the axes in addition to axial load it is termed as column subjected to biaxial bending. The corner columns in a building are subjected to axial load and biaxial bending (c).
 
 ![1](images/fig.png)<br>
 
@@ -24,9 +24,9 @@ Mx is cosidered as moment acting about major 'x' axis of bending, dividing depth
 ##### Classification of Column Based on Reinforcement: <br>
 ##### Concrete columns are mainly classified into the following two types: <br>
 
-(a) Column with Lateral ties: In this case the main reinforcing longitudinal bars are enclosed within closely spaced lateral ties (Fig.2 (a))<br>
+(a) Column with Lateral ties: In this case the main reinforcing longitudinal bars are enclosed within closely spaced lateral ties <br>
 
-(b) Column with Spirals: In this case the main reinforcing longitudinal bars are enclosed within closely spaced and continuously wound spiral reinforcement (Fig.2 (b))<br>
+(b) Column with Spirals: In this case the main reinforcing longitudinal bars are enclosed within closely spaced and continuously wound spiral reinforcement <br>
 
 
 
