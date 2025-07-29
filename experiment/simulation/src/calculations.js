@@ -108,7 +108,7 @@ function loadCalculate() {
 				//						$("#myModal").html("<b class='boldTextBlue'>Formula : Pu  = 1.5 X P </b> ");
 
 				$(".modal-header").html("Formula Message");
-				$(".modal-header").css("background", "blue");
+				$(".modal-header").css("background", "#3ea8bd");
 				$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 				$("#MsgModal").html("Formula : Pu  = 1.5 X P");
 
@@ -189,7 +189,7 @@ function loadCalculate() {
 					$("#submit_load3").prop("disabled", false);
 					$("#submit_load2").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 
 				} else if (lx_user != lx_ecorr) {
@@ -207,7 +207,7 @@ function loadCalculate() {
 				//						$("#myModal").html("<b class='boldTextBlue'>Formula : Pu  = 1.5 X P </b> ");
 
 				$(".modal-header").html("Formula Message");
-				$(".modal-header").css("background", "blue");
+				$(".modal-header").css("background", "#3ea8bd");
 				$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 				$("#MsgModal").html("Formula : lx<sub>eff</sub>  = "+supp_fact+" X lx");
 
@@ -221,7 +221,7 @@ function loadCalculate() {
 					$("#submit_load3").prop("disabled", false);
 					$("#submit_load2").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 
 
@@ -230,7 +230,7 @@ function loadCalculate() {
 					//							 $("#myModal").html("<b class='boldTextBlue'>Correct Answer is  " +pu_corr+'</b>');
 
 					$(".modal-header").html("answer");
-					$(".modal-header").css("background", "blue");
+					$(".modal-header").css("background", "#3ea8bd");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 					$("#MsgModal").html("correct answer is " + lx_ecorr);
 				}
@@ -266,7 +266,7 @@ function loadCalculate() {
 					$("#text4").prop("disabled", false);
 					$("#submit_load4").prop("disabled", false);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 
 				} else if (ly_user != ly_ecorr) {
@@ -284,7 +284,7 @@ function loadCalculate() {
 				//						$("#myModal").html("<b class='boldTextBlue'>Formula : Pu  = 1.5 X P </b> ");
 
 				$(".modal-header").html("Formula Message");
-				$(".modal-header").css("background", "blue");
+				$(".modal-header").css("background", "#3ea8bd");
 				$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 				$("#MsgModal").html("Formula : ly<sub>eff</sub>  = "+supp_fact+" X ly");
 
@@ -298,7 +298,7 @@ function loadCalculate() {
 					$("#text4").prop("disabled", false);
 					$("#submit_load4").prop("disabled", false);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 
 
@@ -307,7 +307,7 @@ function loadCalculate() {
 					//							 $("#myModal").html("<b class='boldTextBlue'>Correct Answer is  " +pu_corr+'</b>');
 
 					$(".modal-header").html("answer");
-					$(".modal-header").css("background", "blue");
+					$(".modal-header").css("background", "#3ea8bd");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 					$("#MsgModal").html("correct answer is " + ly_ecorr);
 				}
@@ -358,7 +358,7 @@ function loadCalculate() {
 					$("#text3").prop("disabled", false);
 					$("#submit_load3").prop("disabled", false);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 //					$("#Next").prop("hidden", false);
 
@@ -377,7 +377,7 @@ function loadCalculate() {
 				//						$("#myModal").html("<b class='boldTextBlue'>Formula : Pu  = 1.5 X P </b> ");
 
 				$(".modal-header").html("Formula Message");
-				$(".modal-header").css("background", "blue");
+				$(".modal-header").css("background", "#3ea8bd");
 				$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 				$("#MsgModal").html("Formula : b  > L<sub>eff</sub> /12");
 
@@ -392,7 +392,7 @@ function loadCalculate() {
 					
 //					$("#Next").prop("hidden", false);
 					$(".modal-header").html("Correct answer");
-					$(".modal-header").css("background", "green");
+					$(".modal-header").css("background", "#47d163");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 
 
@@ -401,7 +401,7 @@ function loadCalculate() {
 					//							 $("#myModal").html("<b class='boldTextBlue'>Correct Answer is  " +pu_corr+'</b>');
 
 					$(".modal-header").html("answer");
-					$(".modal-header").css("background", "blue");
+					$(".modal-header").css("background", "#3ea8bd");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 					$("#MsgModal").html("correct value for b " + b_corr);
 				}
