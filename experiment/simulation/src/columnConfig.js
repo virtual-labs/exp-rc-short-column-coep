@@ -159,12 +159,19 @@ var selection = '<div class="row">'
 			$(".modal-header").html("Error Message");
 			$(".modal-header").css("background","#9c1203b0");
 			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
-			$("#MsgModal").html("<b>Enter Appropriate Value</b>");
+			$("#MsgModal").html("<b>Enter Value</b>");
 		}else{
 			if(pre > 0){
 			$("#subLength").prop("disabled",true);
 			$("#lengthText").prop("disabled",true);
 			$("#concreteGrade").prop("disabled",false);
+			$("#subPre").prop("disabled",true);
+		
+//			$(".modal-header").html("Message");
+//			$(".modal-header").css("background","");
+//			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
+//			$("#MsgModal").html("<b>Value Submitted</b>");
+			
 //			length();
 			}else{
 			$(".modal-header").html("Error Message");
@@ -297,10 +304,15 @@ var selection = '<div class="row">'
    var widthVal = $("#width").val();
    var ratioVal = $("#ratio").val();
    var depthVal = $("#depth").val();
+   $("#checkConfg").prop("disabled",true);
+   
+//   $(".modal-header").html("Message");
+//			$(".modal-header").css("background","");
+//			$("#btnModal").removeClass("btn-success").addClass("btn-danger");
+//			$("#MsgModal").html("<b>Configured sucessfully. Go to next level</b>");
+  
    $('#forwardButton').removeClass("disabled");
    
-
-  
 	 		  
 	
 });
