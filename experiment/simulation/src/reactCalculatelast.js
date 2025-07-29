@@ -33,7 +33,8 @@ function rectFinal()
 					$("#blink1").prop("hidden",true);
 //					blinker();
 				}else{
-					
+					$("#textD").prop("disabled", true);
+					$("#dsubmit").prop("disabled", true);
 				}
 				
 		});	
@@ -47,6 +48,8 @@ function rectFinal()
 				
 			}else{
 				calculateLast();
+				$("#txtbar").prop("disabled", true);
+				$("#bsubmit").prop("disabled", true);
 			}
 			
 			});
@@ -55,6 +58,7 @@ function rectFinal()
 				var acsflg = 0;
 			var ascpro	= (buser * (3.14/4)*duser*duser);
 			ascProvided = parseFloat(ascpro);
+			ascProvided = ascProvided.toFixed(2);
 			if (ascProvided < ascCal){
 				acsflg = 1;
 			}
@@ -154,6 +158,9 @@ function rectFinal()
 				toastr.error('<span class="blinking1">Enter Value less than 40mm</span>');
 					$("#blink1").prop("hidden",true);
 				console.log("hey");
+			}else{
+				$("#txt4").prop("disabled", true);
+				$("#csubmit").prop("disabled", true);
 			}
 			
 			});
@@ -169,6 +176,10 @@ function rectFinal()
 					
 					toastr.error('<span class="blinking1">Enter Value greater than '+condtie+' mm </span>');
 					$("#blink1").prop("hidden",true);
+				
+			}else{
+				$("#tietxt").prop("disabled", true);
+				$("#tsubmit").prop("disabled", true);
 				
 			}
 			

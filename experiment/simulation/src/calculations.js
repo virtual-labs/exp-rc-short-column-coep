@@ -88,6 +88,7 @@ function loadCalculate() {
 				if (pu_user >= pu_corr) {
 					$("#text2").prop("disabled", false);
 					$("#submit_load2").prop("disabled", false);
+					$("#submit_load1").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
 					$(".modal-header").css("background", "green");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
@@ -119,6 +120,7 @@ function loadCalculate() {
 					id = 1;
 					$("#text2").prop("disabled", false);
 					$("#submit_load2").prop("disabled", false);
+					$("#submit_load1").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
 					$(".modal-header").css("background", "green");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
@@ -185,6 +187,7 @@ function loadCalculate() {
 				if (lx_user == lx_ecorr) {
 					$("#text3").prop("disabled", false);
 					$("#submit_load3").prop("disabled", false);
+					$("#submit_load2").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
 					$(".modal-header").css("background", "green");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
@@ -216,6 +219,7 @@ function loadCalculate() {
 					id1 = 1;
 					$("#text3").prop("disabled", false);
 					$("#submit_load3").prop("disabled", false);
+					$("#submit_load2").prop("disabled", true);
 					$(".modal-header").html("Correct answer");
 					$(".modal-header").css("background", "green");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
@@ -258,6 +262,7 @@ function loadCalculate() {
 		else {
 			if (id2 <= 3) {
 				if (ly_user == ly_ecorr) {
+					$("#submit_load3").prop("disabled", true);
 					$("#text4").prop("disabled", false);
 					$("#submit_load4").prop("disabled", false);
 					$(".modal-header").html("Correct answer");
@@ -289,6 +294,7 @@ function loadCalculate() {
 				//						flow = flowAns.toFixed(2);
 				if (ly_user == ly_ecorr) {
 					id2 = 1;
+					$("#submit_load3").prop("disabled", true);
 					$("#text4").prop("disabled", false);
 					$("#submit_load4").prop("disabled", false);
 					$(".modal-header").html("Correct answer");
