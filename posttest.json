@@ -1,0 +1,68 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A column will be considered as pedestal when its effective length is less than :",
+      "answers": {
+        "a": "3 h",
+        "b": "greater than 0.8h",
+        "c": "2 h",
+        "d": "1 h"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of end condition provides maximum strength against buckling?",
+      "answers": {
+        "a": "Fixed-free",
+        "b": "Pinned-pinned",
+        "c": "Fixed-fixed",
+        "d": "Fixed-pinned"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The minimum number of longitudinal bars required in a circular RC column is:",
+      "answers": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "6"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "In a short column, the primary function of transverse ties is to:",
+      "answers": {
+        "a": "Increase the bending moment capacity",
+        "b": "Improve flexural strength",
+        "c": "Constrain lateral expansion of concrete and prevent buckling of main bars",
+        "d": "Reduce dead load of the structure"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "The length of a slender column between end restraints shall not exceed, where h is least lateral dimension;",
+      "answers": {
+        "a": "40 h",
+        "b": "45 h",
+        "c": "60 h",
+        "d": "50 h"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
