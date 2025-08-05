@@ -149,6 +149,16 @@ function rectFinal()
       	
       	$("#page5Div1").append(label);
 	
+	
+function endExperiment() {
+  
+  Swal.fire({
+  icon: 'success',
+  title: 'Experiment Finished!',
+  text: 'Well done. You have completed experiment sucessfully.',
+  confirmButtonText: 'Okay'
+});
+}
 		
 			$("#csubmit").click(function() {
 				
@@ -159,13 +169,16 @@ function rectFinal()
 					$("#blink1").prop("hidden",true);
 				console.log("hey");
 			}else{
+				endExperiment();
 				$("#txt4").prop("disabled", true);
 				$("#csubmit").prop("disabled", true);
 			}
 			
 			});
 			
-			
+	
+	
+		
 			
 			let condtie = Math.max(duser,6);
 			$("#tsubmit").click(function() {
@@ -178,6 +191,7 @@ function rectFinal()
 					$("#blink1").prop("hidden",true);
 				
 			}else{
+				
 				$("#tietxt").prop("disabled", true);
 				$("#tsubmit").prop("disabled", true);
 				
