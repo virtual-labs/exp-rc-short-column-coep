@@ -58,6 +58,30 @@
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
+    },
+	
+	{
+      "question": "A reinforced concrete column is classified as short when:",
+      "answers": {
+        "a": "Its slenderness ratio exceeds 12 in both directions",
+        "b": "Its slenderness ratio is less than 12 in both directions",
+        "c": "Its height is less than 3 times its least lateral dimension",
+        "d": "Its depth is less than 3 times its width"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "In a tied column, the transverse reinforcement is provided in the form of:",
+      "answers": {
+        "a": "Spirals",
+        "b": "Lateral ties",
+        "c": "Stirrups",
+        "d": "Welded mesh"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
 	
   ]
