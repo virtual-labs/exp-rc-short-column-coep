@@ -53,7 +53,7 @@
     },
 	
 	{
-      "question": "The length of a slender column between end restraints shall not exceed, where h is least lateral dimension;",
+      "question": "The length of a slender column between end restraints shall not exceed, where h is least lateral dimension:",
       "answers": {
         "a": "40 h",
         "b": "45 h",
@@ -62,6 +62,30 @@
       },
      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "For a short column with b = 300 , mm, D = 400 , mm, and L_e = 3000 , mm, the slenderness ratios lambda_x and lambda_y are:",
+      "answers": {
+        "a": "7.5 and 10",
+        "b": "12 and 12",
+        "c": "15 and 10",
+        "d": "7.5 and 12"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "As per IS 456:2000, the minimum percentage of longitudinal steel in an RC column is:",
+      "answers": {
+        "a": "0.6% of gross area",
+        "b": "0.8% of gross area",
+        "c": "1.0% of gross area",
+        "d": "1.5% of gross area"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
