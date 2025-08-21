@@ -1,6 +1,6 @@
-### Procedure 
+## PROCEDURE
 
-### Configuration:-
+### Configuration:
 -	Configure the parameters such as working load (KN), grade of concrete, grade of steel, unsupported length l<sub>x</sub> (m), unsupported length 
 	l<sub>y</sub> (m) and support conditions.
 -	Proceed to the next step by clicking on the next arrow.
