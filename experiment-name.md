@@ -1,0 +1,1 @@
+## Design a reinforced concrete (RC) short column with axial load
