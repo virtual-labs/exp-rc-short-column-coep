@@ -131,7 +131,7 @@ function loadCalculate() {
 					//							 $("#myModal").html("<b class='boldTextBlue'>Correct Answer is  " +pu_corr+'</b>');
 
 					$(".modal-header").html("Error Message");
-					$(".modal-header").css("background", "blue");
+					$(".modal-header").css("background", "#3ea8bd");
 					$("#btnModal").removeClass("btn-success").addClass("btn-danger");
 					$("#MsgModal").html("correct answer is " + pu_corr);
 				}
@@ -149,23 +149,30 @@ function loadCalculate() {
 		supp_fact = 0.65;
 		lx_ecorr = supp_fact * lx;
 		ly_ecorr = supp_fact * ly;
-		
+		lx_ecorr = lx_ecorr.toFixed(2);
+		ly_ecorr = ly_ecorr.toFixed(2);
 		console.log("lx " + lx_ecorr)
 	}
 	else if (support == 2) {
 		supp_fact = 0.8;
 		lx_ecorr = supp_fact * lx;
 		ly_ecorr = supp_fact * ly;
+		lx_ecorr = lx_ecorr.toFixed(2);
+		ly_ecorr = ly_ecorr.toFixed(2);
 	}
 	else if (support == 3) {
 		supp_fact = 1;
 		lx_ecorr = lx;
 		ly_ecorr = ly;
+		lx_ecorr = lx_ecorr.toFixed(2);
+		ly_ecorr = ly_ecorr.toFixed(2);
 	}
 	else if (support == 2) {
 		supp_fact = 2;
 		lx_ecorr = supp_fact * lx;
 		ly_ecorr = supp_fact * ly;
+		lx_ecorr = lx_ecorr.toFixed(2);
+		ly_ecorr = ly_ecorr.toFixed(2);
 	}
 
 	$("#submit_load2").click(function() {
